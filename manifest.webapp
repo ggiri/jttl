@@ -1,0 +1,16 @@
+{
+    "version": "0.1",
+        "name": "Journey, through the lens",
+        "description": "Journey, through the lens",
+        "launch_path": "index.html",
+        "icons": {
+            "16": "/app-template/app-icons/icon-16.png",
+            "48": "/app-template/app-icons/icon-48.png",
+            "128": "/app-template/app-icons/icon-128.png"
+        },
+        "developer": {
+            "name": "Journey, through the lens team",
+            "url": "http://journeythroughthelens.in"
+        },
+        "default_locale": "en"
+}
