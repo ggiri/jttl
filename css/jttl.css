@@ -2,6 +2,10 @@ body {
     margin: 0 11px;
 }
 
+.photograph {
+    .make-lg-column(4);
+}
+
 .photograph img {
     display: block;
     margin: 11px auto;

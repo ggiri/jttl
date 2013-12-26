@@ -1,51 +1,92 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
+
+<title>Home page</title>
+
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-<meta name="keywords" content="Photography Hobby-Photography Amateur-Photography Nature Photography Landscape Photography Cityscape Photography Macro Photography Monument Photography">
-<meta name="description" content="A photography website to express and share the interest in Photography. Landscape Cityscape">
 
-<title>Journey, through the lens</title>
+<!-- jQuery library (served from Google) -->
+<script src="js/jquery-1.8.2.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
 
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/jttl.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#bxslider1').bxSlider({
+			mode: 'fade',
+			auto : true,
+			autoControls : true,
+			pause : 3999
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#bxslider2').bxSlider({
+			mode: 'fade',
+			auto : true,
+			autoControls : true,
+			pause : 3755
+		});
+	});
+</script>
+
 </head>
-
-
 <body>
-<div class="container">
-    <div class="row">
-        <div class="photograph">
-            <img class="img-responsive img-rounded" src="https://dl.dropboxusercontent.com/u/232044387/logo_v1.jpg" alt="Logo v1">
-        </div> <!-- close .photograph -->
-    </div> <!-- close .row -->
-</div> <!-- close .container -->
 
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
-                <p class="text-muted"><a href="#">JOURNEY, THROUGH THE LENS</a></p>
-            </div> <!-- close .col-md-4 -->
+		<div class="col-md-4 padding-twentyfivepx test">
+			<ul id="bxslider1">
+				<li><img src="https://dl.dropboxusercontent.com/u/232044387/DSC08651_2.png" /></li>
+				<li><img src="https://dl.dropboxusercontent.com/u/232044387/DSC09363_3.png" /></li>
+				<li><img src="https://dl.dropboxusercontent.com/u/232044387/DSC09374%20(1)_2.png" /></li>
+			</ul>
+		</div>
 
-            <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-6 text-center">
-                <ul class="list-inline">
-                    <li class="active"><a href="#">ABOUT</a></li> -
-                    <li><a href="#">WHY PHOTOGRAPH</a></li> -
-                    <li><a href="#">GALLERY</a></li> -
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div> <!-- close .col-md-6 -->
-        </div> <!-- close .row -->
-    </div> <!-- close .container -->
-</footer>
+		<div class="col-md-4 padding-twentyfivepx test">
+			<br><br>
+			<br><br>
+			<blockquote class="pquote">
+				<img src="images/open_quote.jpeg" alt="open quote" width="10%"
+					height="10%"></img> <span class="blockquote">Beauty can be
+					seen in all things, seeing and composing the beauty is what
+					separates the snapshot from the photograph</span><img
+					src="images/close_quote.jpeg" alt="open quote" width="10%"
+					height="10%" /><br> <small class="pull-right">Matt
+					Hardy</small>
+			</blockquote>
+		</div>
 
+		<div class="col-md-4 padding-twentyfivepx test">
+			<ul id="bxslider2">
+				<li><img src="https://dl.dropboxusercontent.com/u/232044387/DSC09363_3.png" /></li>
+				<li><img src="https://dl.dropboxusercontent.com/u/232044387/DSC08651_2.png" /></li>
+				<li><img src="https://dl.dropboxusercontent.com/u/232044387/DSC09374%20(1)_2.png" /></li>
+			</ul>
+		</div>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/holder.js"></script>
-<script src="js/jttl.js"></script>
+	<div id="footer">
+		<div class="panel-footer navbar navbar-inner  navbar-fixed-bottom">
+			<p class="muted credit"><center>Journey, through the lens</center></p>
+		</div>
+	</div>
+
 </body>
 </html>

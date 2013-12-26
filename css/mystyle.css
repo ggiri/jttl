@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+.textcenter {
+	text-align: center;
+}
+
+.padding-twentyfivepx {
+	padding: 25px;
+}
+
+.padding-tenpx {
+	padding: 10px 10px 10px 10px;
+}
+
+.divninetypercent {
+	width:90%;
+	height:auto;
+}
+
+.bordertenpx {
+ border:10px;	
+}
+
+.divreducesize {
+	width:90%;
+}
